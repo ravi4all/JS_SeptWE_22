@@ -1,0 +1,74 @@
+x
+12
+var username;
+undefined
+username
+undefined
+username = "Ravi";
+'Ravi'
+username
+'Ravi'
+let emailId;
+undefined
+emailId = "ravi@gmail.com"
+'ravi@gmail.com'
+let username = "John";
+VM328:1 Uncaught SyntaxError: Identifier 'username' has already been declared
+var emailId = "john@gmail.com"
+VM426:1 Uncaught SyntaxError: Identifier 'emailId' has already been declared
+    at <anonymous>:1:1
+(anonymous) @ VM426:1
+const pi = 3.14;
+undefined
+pi += 1;
+VM481:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:4
+(anonymous) @ VM481:1
+let age = 20;
+undefined
+age += 5;
+25
+age
+25
+let c = 10;
+undefined
+typeof c;
+'number'
+c = 45.44;
+45.44
+typeof c;
+'number'
+c = true;
+true
+typeof c;
+'boolean'
+c = "hello world";
+'hello world'
+typeof c;
+'string'
+let d;
+undefined
+typeof d;
+'undefined'
+d = null;
+null
+typeof d;
+'object'
+null == undefined
+true
+let views = 29498382234;
+undefined
+typeof views
+'number'
+views = 2949838223434234233;
+2949838223434234400
+typeof views
+'number'
+views = 2949838223434234233231312312321321;
+2.949838223434234e+33
+views = 2949838223434234233n;
+2949838223434234233n
+typeof views
+'bigint'
+'a' / 2
+NaN

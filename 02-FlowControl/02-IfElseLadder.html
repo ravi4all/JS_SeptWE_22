@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let choice = prompt("Enter your choice : 1/2/3/4",0);
+        let fnum = parseInt(prompt("Enter first num : ", 0));
+        let snum = parseInt(prompt("Enter second num : ", 0));
+        let res = 0;
+        if(choice == "1") {
+            res = fnum + snum;
+        }
+        else if(choice == "2") {
+            res = fnum - snum;
+        }
+        else if(choice == "3") {
+            res = fnum / snum;
+        }
+        else if(choice == "4") {
+            res = fnum * snum;
+        }
+        else {
+            alert("Invalid Choice...");
+        }
+        alert("Result is : " + res);
+    </script>
+    
+</body>
+</html>

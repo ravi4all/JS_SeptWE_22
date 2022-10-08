@@ -1,0 +1,110 @@
+i = 0;
+0
+do {
+    console.log("Loop Executed...");
+    i += 2;
+} while (i < 10) {
+    console.log(i);
+}
+VM66:2 Loop Executed...
+VM66:2 Loop Executed...
+VM66:2 Loop Executed...
+VM66:2 Loop Executed...
+VM66:2 Loop Executed...
+VM66:5 10
+undefined
+i = 0;
+0
+do {
+    console.log("Loop Executed...",i);
+    i += 2;
+} while (i < 10)
+VM143:2 Loop Executed... 0
+VM143:2 Loop Executed... 2
+VM143:2 Loop Executed... 4
+VM143:2 Loop Executed... 6
+VM143:2 Loop Executed... 8
+10
+var x = [3,4,6,3,0,4,6,12,0,45];
+undefined
+for(var i = 0; i < x.length; i++) {
+    var res = 9/x[i];
+    console.log(res);
+}
+VM405:3 3
+VM405:3 2.25
+VM405:3 1.5
+VM405:3 3
+VM405:3 Infinity
+VM405:3 2.25
+VM405:3 1.5
+VM405:3 0.75
+VM405:3 Infinity
+VM405:3 0.2
+undefined
+for(var i = 0; i < x.length; i++) {
+    if(x[i] == 0) {
+        continue;
+    }
+    var res = 9/x[i];
+    console.log(res);
+}
+VM479:6 3
+VM479:6 2.25
+VM479:6 1.5
+VM479:6 3
+VM479:6 2.25
+VM479:6 1.5
+VM479:6 0.75
+VM479:6 0.2
+undefined
+for(var i = 0; i < x.length; i++) {
+    if(x[i] == 0) {
+        break;
+    }
+    var res = 9/x[i];
+    console.log(res);
+}
+VM535:6 3
+VM535:6 2.25
+VM535:6 1.5
+VM535:6 3
+undefined
+Math.random()
+0.5124464489627729
+Math.random()
+0.08364170217145395
+Math.random()
+0.1797402763132001
+Math.random()
+0.03582360700487386
+Math.random() * 100
+97.66135053570027
+Math.random() * 100
+54.68515720402003
+Math.random() * 100
+98.03368500620486
+Math.random() * 100
+86.5227660379972
+Math.random() * 100
+96.15822814567288
+Math.random() * 100
+7.45251440708834
+Math.random() * 100
+52.09731312358594
+parseInt(Math.random() * 100)
+41
+parseInt(Math.random() * 100)
+85
+parseInt(Math.random() * 100)
+97
+parseInt(Math.random() * 100)
+65
+parseInt(Math.random() * 100)
+10
+parseInt(Math.random() * 100)
+77
+Math.floor(Math.random() * 100)
+33
+Math.floor(Math.random() * 100)
+35

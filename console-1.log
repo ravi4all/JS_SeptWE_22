@@ -1,0 +1,54 @@
+x = 12;
+12
+typeof x
+'number'
+var x;
+undefined
+x = 12;
+12
+x = "hello";
+'hello'
+typeof x
+'string'
+x = 12.45;
+12.45
+typeof x
+'number'
+var x;
+undefined
+typeof x;
+'number'
+x
+12.45
+var username;
+undefined
+username
+undefined
+typeof username
+'undefined'
+flag = true;
+true
+typeof flag
+'boolean'
+x = [12,4,6,78,4,4,7,8,3];
+(9) [12, 4, 6, 78, 4, 4, 7, 8, 3]
+typeof x
+'object'
+typeof("Hello")
+'string'
+typeof(12)
+'number'
+typeof(12.45)
+'number'
+typeof(true)
+'boolean'
+typeof(undefined)
+'undefined'
+typeof(null)
+'object'
+typeof({})
+'object'
+typeof([4,3,4])
+'object'
+typeof(1n)
+'bigint'

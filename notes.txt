@@ -1,0 +1,96 @@
+Introduction to Javascript
+
+JVM - Javascript Virtual Machine
+
+V8 Engine - Chrome, Opera and Edge
+SpiderMonkey - Firefox
+Chakra - IE
+SquirrelFish - Safari
+-----------------------------------------
+Operators in JS
+- Arithmetic Operators
+   +, -, *, /, %, ++, --, **
+- Assignment Operators
+   =, +=, -=, *=, /=, %=, **=
+- Comparison Operators
+   ==, ===, !=, !==, >, <, >=, <=, ?
+- Logical Operators
+   &&, ||, !
+- Type Operators
+   typeof, instanceof
+- Bitwise Operators
+   &, |, ~, ^, <<, >>, >>>
+
+Interaction with HTML
+- alert
+- prompt
+- confirm
+
+Flow Control
+- If Else
+   - Simple If Else
+   - If Else Ladder
+   - Ternary Operator
+- Switch Case
+- Loops
+
+Questions for practice
+- write a program to check whether a number is even or odd
+- write a program to check whether a number is positive or negative
+
+Loops
+- for
+- while
+- do while
+
+For Loop
+for(initialize; condition; inc/dec) {
+   Logic
+}
+
+While Loop
+while(condition) {
+   Logic
+}
+
+Do...while Loop
+do {
+   statement;
+} while(expression)
+
+Break and Continue
+
+Guess the number game
+
+Programs
+- Table of a number
+- Sum of N Natural number
+- Print all even numbers b/w 1 to 50
+
+
+Functions
+- reusable piece of code
+
+Types of function
+- Pre-defined function
+- User defined function
+
+
+function definition
+function call
+
+Function Definition
+function fun_name(parameters) {
+   // Logic...
+}
+
+
+// Function calling
+fun_name()
+fun_name()
+fun_name()
+fun_name()
+
+Scope of variables
+- Local
+- Global
