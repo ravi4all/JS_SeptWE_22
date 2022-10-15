@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // Parent
+        function calc() {
+            let x = 12, y = 33;
+            // Child Functions
+            function add() {
+                let z = x + y;
+                console.log("Sum is",z);
+            }
+
+            function sub() {
+                let z = x - y;
+                console.log("Sub is",z);
+            }
+
+            function mul() {
+                let z = x * y;
+                console.log("Mul is",z);
+            }
+            // calling a function
+            // add(), sub(), mul();
+
+            // we are returning function definition from a function
+            return [add, sub, mul];
+        }
+
+        // calling add()
+        // calc()[0]();
+        let add = calc()[0];
+        add();
+
+        // calling sub
+        calc()[1]();
+
+        // calling mul
+        calc()[2]();
+    </script>
+    
+</body>
+</html>
