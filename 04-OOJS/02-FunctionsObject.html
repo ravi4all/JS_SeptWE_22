@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // function greet() {
+        //     console.log("Hello User...");
+        // }
+        // let obj_1 = new greet();
+
+        function greet(name) {
+            // store name inside current object
+            this.name = name;
+            console.log("Hello",this.name);
+        }
+        // new - keyword - states that we want to create a new object
+        let obj_1 = new greet("Ram");
+        let obj_2 = new greet("Shyam");
+        let obj_3 = new greet("Kunal");
+        let obj_4 = new greet("Akash");
+    </script>
+    
+</body>
+</html>

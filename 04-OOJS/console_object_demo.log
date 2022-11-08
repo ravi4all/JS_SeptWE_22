@@ -1,0 +1,112 @@
+let user = {name : "Ram"}
+undefined
+user
+{name: 'Ram'}name: "Ram"[[Prototype]]: Objectconstructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()__proto__: (...)get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()
+typeof user
+'object'
+let name = "Ram"
+undefined
+typeof name
+'string'
+x = 12;
+12
+typeof x
+'number'
+Object
+ƒ Object() { [native code] }
+user instanceof Object
+true
+var username = "Ram";
+undefined
+typeof username
+'string'
+username instanceof String
+false
+var name = new String("Ram");
+VM1751:1 Uncaught SyntaxError: Identifier 'name' has already been declared
+    at <anonymous>:1:1
+(anonymous) @ VM1751:1
+var username = new String("Ram");
+undefined
+username
+String {'Ram'}
+var username = "Ram";
+undefined
+username
+'Ram'
+var username = new String("Ram");
+undefined
+username
+String {'Ram'}0: "R"1: "a"2: "m"length: 3[[Prototype]]: String[[PrimitiveValue]]: "Ram"
+username instanceof Object
+true
+username instanceof String\
+VM1915:1 Uncaught SyntaxError: Invalid or unexpected token
+username instanceof String
+true
+user
+{name: 'Ram'}
+user.name
+'Ram'
+user["name"]"]
+VM1994:1 Uncaught SyntaxError: Invalid or unexpected token
+user["name"]"
+VM2000:1 Uncaught SyntaxError: Invalid or unexpected token
+user["name"]
+'Ram'
+let obj = {name : "Ram", phone : 898989898, gender : "male"};
+undefined
+obj
+{name: 'Ram', phone: 898989898, gender: 'male'}gender: "male"name: "Ram"phone: 898989898[[Prototype]]: Object
+obj.name
+'Ram'
+obj.gender
+'male'
+obj.phone
+898989898
+obj.age = 30;
+30
+obj
+{name: 'Ram', phone: 898989898, gender: 'male', age: 30}
+obj.details = function() {
+    console.log("Name is",name);
+    console.log("Age is",age);
+}
+ƒ () {
+    console.log("Name is",name);
+    console.log("Age is",age);
+}
+obj
+{name: 'Ram', phone: 898989898, gender: 'male', age: 30, details: ƒ}age: 30details: ƒ ()gender: "male"name: "Ram"phone: 898989898[[Prototype]]: Object
+obj.details()
+VM2551:2 Name is Ram
+VM2551:3 Uncaught ReferenceError: age is not defined
+    at obj.details (<anonymous>:3:26)
+    at <anonymous>:1:5
+obj.details @ VM2551:3
+(anonymous) @ VM2601:1
+obj.name = "Shyam";
+'Shyam'
+obj
+{name: 'Shyam', phone: 898989898, gender: 'male', age: 30, details: ƒ}
+obj.details()
+VM2551:2 Name is Ram
+VM2551:3 Uncaught ReferenceError: age is not defined
+    at obj.details (<anonymous>:3:26)
+    at <anonymous>:1:5
+obj.details @ VM2551:3
+(anonymous) @ VM2674:1
+name
+'Ram'
+obj.details = function() {
+    console.log("Name is",obj.name);
+    console.log("Age is",obj.age);
+}
+ƒ () {
+    console.log("Name is",obj.name);
+    console.log("Age is",obj.age);
+}
+obj.details()
+VM2755:2 Name is Shyam
+VM2755:3 Age is 30
+undefined

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let obj = {
+            "username" : "Pooja",
+            "gender" : "female",
+            "age" : 20,
+            "phone" : 88799796795,
+            details : function() {
+                // this = refers to current object...
+                // this = obj
+                console.log("Name is",this.username);
+                console.log("Age is",this.age);
+            }
+        };
+        // obj.details = function() {}
+        // console.log(obj);
+        obj.details();
+    </script>
+    
+</body>
+</html>
