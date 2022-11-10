@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Function as a Constructor</h1>
+
+    <script>
+        // let obj = {name : "Ram"};
+        // let obj = new Object();
+        // Function as a constructor
+        function Person(id, name, occupation, age) {
+            this.id = id;
+            this.name = name;
+            this.occupation = occupation;
+            this.age = age;
+            this.details = function() {
+                console.log("Hello : " + name);
+            }
+        }
+        let p1 = new Person(101, "Ram", "Employee", 30);
+        let p2 = new Person(102, "Shyam", "Student", 15);
+
+        Person.prototype.greet = function() {
+            return "Hello " + this.name;
+        }
+    </script>
+    
+</body>
+</html>

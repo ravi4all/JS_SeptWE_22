@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // function Person(id, name, age) {
+        //     this.id = id;
+        //     this.name = name;
+        //     this.age = age;
+        // }
+
+        class Person {
+            constructor(id, name, age) {
+                this.id = id;
+                this.name = name;
+                this.age = age;
+            }
+
+            getName() {
+                return this.name;
+            }
+        }
+
+        let p1 = new Person(101, "Ram", 30);
+        let p2 = new Person(102, "Shyam", 21)
+    </script>
+    
+</body>
+</html>
